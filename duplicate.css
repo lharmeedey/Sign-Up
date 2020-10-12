@@ -1,0 +1,88 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+   /* background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: absolute;
+    background-color: grey;
+}
+.form-box{
+    width: 410px;
+    height: 450px;
+    background: yellow;
+    position: relative;
+    margin: 6% auto;
+    margin-left: 110%;
+    margin-top: 20%;
+    padding: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.first{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    position: relative;
+    margin-top: 0%;
+    color:green
+}
+.reg1{
+    width: 70%;
+    font-size:20px;
+    padding:8px 0;
+    margin: 8px 0;
+    overflow: hidden;
+    position: relative;
+    left:15%;
+}
+
+input[type=text]{
+    width: 80%;
+    font-size:18px;
+    margin:0 10px;
+    background-color: transparent;
+    outline: none;
+    float:left;
+    border-radius: 4px;
+    padding: 3px;
+}
+    
+
+input[type=email],input[type=password],input[type=password],input[type="number"]{
+    width: 80%;
+    font-size:18px;
+    margin:0 10px;
+    background: transparent;
+    outline: none;
+    float:left;
+    padding: 2px;
+    margin-bottom: 3px;
+    border-radius: 4px;
+
+}
+::placeholder{
+    font-size: 18px;
+    color: green;
+    
+    
+}
+i{
+    text-align: center;
+    width:26px;
+    float: left;
+    position: relative;
+    color: green;
+}
+#btn{
+    background-color: green;
+    color: white;
+    padding:3px;
+    margin-top: 20px;
+    margin-left: 35%;
+    font-size: 26px;
+    position: absolute;
+    bottom: 10px;
+}
